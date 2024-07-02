@@ -19,3 +19,17 @@
 .courier {
     font-family: 'Courier', monospace;
 }
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(calc(-100% - 16px));
+    }
+}
+
+.enable-animation .marquee__content {
+    animation: scroll 40s linear infinite;
+}
