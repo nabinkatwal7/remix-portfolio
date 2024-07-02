@@ -1,4 +1,7 @@
+import Contacts from "./Contacts"
+import Education from "./Education"
 import Experience from "./Experience"
+import Hobbies from "./Hobbies"
 import Introduction from "./Introduction"
 import Projects from "./Projects"
 import Skills from "./Skills"
@@ -11,8 +14,9 @@ const HomeWrapper = () => {
         <Skills />
         <Experience />
         <Projects />
-        <div>education</div>
-        <div>contact</div>
+        <Education />
+        <Hobbies />
+        <Contacts />
       </div>
     </div>
   )
